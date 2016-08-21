@@ -1,0 +1,65 @@
+<resources>
+
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="nav_header_vertical_spacing">16dp</dimen>
+	<dimen name="nav_header_height">160dp</dimen>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="fab_margin">16dp</dimen>
+	<dimen name="text_margin">16dp</dimen>
+
+	<dimen name="global_keyline_s">16dp</dimen>
+	<dimen name="global_keyline_m">32dp</dimen>
+	<dimen name="global_keyline_l">72dp</dimen>
+
+	<dimen name="global_spacing_xxxxxs">1dp</dimen>
+	<dimen name="global_spacing_xxxxs">2dp</dimen>
+	<dimen name="global_spacing_xxxs">4dp</dimen>
+	<dimen name="global_spacing_xxs">8dp</dimen>
+	<dimen name="global_spacing_xss">12dp</dimen>
+	<dimen name="global_spacing_xs">16dp</dimen>
+	<dimen name="global_spacing_s">24dp</dimen>
+	<dimen name="global_spacing_m">32dp</dimen>
+	<dimen name="global_spacing_l">48dp</dimen>
+	<dimen name="global_spacing_xl">56dp</dimen>
+	<dimen name="global_spacing_xxl">72dp</dimen>
+
+	<dimen name="global_divider_height">1dp</dimen>
+	<dimen name="global_list_divider_height">1dp</dimen>
+
+	<dimen name="global_text_size_display_4">112sp</dimen>
+	<dimen name="global_text_size_display_3">56sp</dimen>
+	<dimen name="global_text_size_display_2">45sp</dimen>
+	<dimen name="global_text_size_display_1">34sp</dimen>
+	<dimen name="global_text_size_headline">24sp</dimen>
+	<dimen name="global_text_size_title">20sp</dimen>
+	<dimen name="global_text_size_subhead">16sp</dimen>
+	<dimen name="global_text_size_body_2">14sp</dimen>
+	<dimen name="global_text_size_body_1">14sp</dimen>
+	<dimen name="global_text_size_caption">12sp</dimen>
+	<dimen name="global_text_size_button">14sp</dimen>
+	<dimen name="global_text_size_menu">16sp</dimen>
+
+	<dimen name="global_no_width">0dp</dimen>
+
+	<dimen name="global_text_spacing">5dp</dimen>
+
+	<dimen name="global_btn_width_s">150dp</dimen>
+	<dimen name="global_btn_width_m">175dp</dimen>
+	<dimen name="global_btn_width_l">200dp</dimen>
+	<dimen name="global_btn_width_xl">225dp</dimen>
+	<dimen name="global_btn_width_xxl">300dp</dimen>
+
+	<dimen name="global_collapse_height">300dp</dimen> <!-- CHANGE ON TABLET -->
+	<dimen name="global_collapse_overlay_height">110dp</dimen>
+
+	<dimen name="global_collapsing_toolbar_layout_title_right_margin_tablet">0dp</dimen> <!-- CHANGE ON TABLET -->
+
+	<dimen name="backdrop_height">250dp</dimen>
+	<dimen name="card_margin">5dp</dimen>
+	<dimen name="card_magazine_radius">0dp</dimen>
+	<dimen name="image_width">160dp</dimen>
+	<dimen name="image_height">160dp</dimen>
+	<dimen name="image_title_padding">10dp</dimen>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<data />
+
+	<RelativeLayout
+		android:id="@+id/rl_main_bitcoin_graph"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="@dimen/global_spacing_xxxs">
+
+		<com.number26.bitcointest.view.VerticalTextView
+			android:id="@+id/tv_y_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:gravity="bottom"
+			tools:text="USD"/>
+
+		<LinearLayout
+			android:id="@+id/ll_y_container_bitcoin_graph"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_above="@+id/view_divider_x_bitcoin_graph"
+			android:layout_toRightOf="@id/tv_y_name"
+			android:orientation="vertical">
+
+		</LinearLayout>
+
+		<View
+			android:id="@+id/view_divider_y_bitcoin_graph"
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:layout_above="@+id/view_divider_x_bitcoin_graph"
+			android:layout_toRightOf="@id/ll_y_container_bitcoin_graph"
+			android:background="@color/global_bg_divider"/>
+
+		<View
+			android:id="@+id/view_divider_x_bitcoin_graph"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_above="@+id/ll_x_container_bitcoin_graph"
+			android:layout_toRightOf="@id/ll_y_container_bitcoin_graph"
+			android:background="@color/global_bg_divider"/>
+
+
+
+		<LinearLayout
+			android:id="@+id/ll_x_container_bitcoin_graph"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_above="@+id/tv_x_name"
+			android:layout_toRightOf="@id/ll_y_container_bitcoin_graph"
+			android:orientation="horizontal">
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/tv_x_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			tools:text="USD"/>
+
+	</RelativeLayout>
+</layout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BitcoinGraphView">
+        <attr name="x_name" format="string" />
+        <attr name="y_name" format="string" />
+        <attr name="y_num_slices" format="integer" />
+        <attr name="x_num_slices" format="integer" />
+        <attr name="x_min" format="float" />
+        <attr name="x_max" format="float" />
+        <attr name="y_min" format="float" />
+        <attr name="y_max" format="float" />
+    </declare-styleable>
+</resources>

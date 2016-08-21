@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">BitcoinTest</string>
+
+	<string name="placeholder_empty">No images from server</string>
+	<string name="placeholder_offline">No network</string>
+	<string name="placeholder_no_results">No results</string>
+</resources>

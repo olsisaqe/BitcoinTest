@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<data>
+		<import type="com.number26.bitcointest.data.model.BitcoinsGraphResponse"/>
+
+		<variable
+			name="graphdata"
+			type="BitcoinsGraphResponse"/>
+	</data>
+
+	<cz.kinst.jakub.view.StatefulLayout
+		android:id="@+id/stateful_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/windowBackground"
+		app:offlineLayout="@layout/placeholder_offline"
+		app:progressLayout="@layout/placeholder_progress"
+		app:state="progress">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/viewBg"
+			app:layout_behavior="@string/appbar_scrolling_view_behavior"
+			tools:context=".Images.ImagesActivity">
+
+			<android.support.v4.widget.SwipeRefreshLayout
+				android:id="@+id/swiperefresh"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:fillViewport="true">
+					<com.number26.bitcointest.view.BitcoinGraphView
+						android:id="@+id/v_graph_bitcoin"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:visibility="gone"
+						app:x_num_slices="10"
+						app:y_num_slices="10"/>
+</ScrollView>
+			</android.support.v4.widget.SwipeRefreshLayout>
+
+		</RelativeLayout>
+	</cz.kinst.jakub.view.StatefulLayout>
+</layout>
