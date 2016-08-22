@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.number26.bitcointest.data.bitcoingraph.BitcoinGraphActivity;
+import com.number26.bitcointest.bitcoingraph.BitcoinGraphActivity;
 
 
 /**

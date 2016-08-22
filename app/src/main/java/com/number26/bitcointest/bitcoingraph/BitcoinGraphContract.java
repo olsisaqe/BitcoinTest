@@ -1,4 +1,4 @@
-package com.number26.bitcointest.data.bitcoingraph;
+package com.number26.bitcointest.bitcoingraph;
 
 import com.number26.bitcointest.data.model.BitcoinsGraphResponse;
 

@@ -1,4 +1,4 @@
-package com.number26.bitcointest.data.bitcoingraph;
+package com.number26.bitcointest.bitcoingraph;
 
 import android.support.annotation.NonNull;
 

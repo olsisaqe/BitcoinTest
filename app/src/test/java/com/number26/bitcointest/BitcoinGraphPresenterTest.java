@@ -2,8 +2,8 @@ package com.number26.bitcointest;
 
 import com.google.gson.GsonBuilder;
 import com.number26.bitcointest.data.BitcoinRepository;
-import com.number26.bitcointest.data.bitcoingraph.BitcoinGraphContract;
-import com.number26.bitcointest.data.bitcoingraph.BitcoinGraphPresenter;
+import com.number26.bitcointest.bitcoingraph.BitcoinGraphContract;
+import com.number26.bitcointest.bitcoingraph.BitcoinGraphPresenter;
 import com.number26.bitcointest.data.model.BitcoinsGraphResponse;
 import com.number26.bitcointest.util.ConfigUtils;
 
